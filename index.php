@@ -443,8 +443,8 @@ else if ( $action == "search" )
 				continue;
 
 			$text = file_get_contents(PAGES_PATH . "/$file");
-			
-			if ( eregi($q, $text) || eregi($q, $file) )
+
+			if ( preg_match("/{$q}/i", $text) || preg_match("/{$q}/i", $file) )
 			{
 				++$matches;
 				$file = preg_replace("/(.*?)\.txt/", "<a href=\"" . SELF . VIEW . "/\\1\">\\1</a>", $file);
