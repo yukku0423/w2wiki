@@ -26,3 +26,7 @@ Notable features:
 
 http://groups.google.com/group/w2wiki
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/yukku0423/w2wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
